@@ -1,0 +1,23 @@
+.body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  /* background-color: #F3F1EC; */
+  background-color: #ebdfc3;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.nav-name {
+  font-size: 22px;
+}
+
+.nav-subtitle {
+  font-size: 15px;
+}
+
+.nav-link {
+  color: #16120B !important;
+  font-size: 14.5px; 
+}
