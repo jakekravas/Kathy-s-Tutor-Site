@@ -1,8 +1,33 @@
-.body {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Varta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Fira+Sans:wght@400&family=Varta:wght@300&display=swap');
+
+body {
   box-sizing: border-box;
-  /* background-color: #F3F1EC; */
-  background-color: #ebdfc3;
+  background-color: #F3F1EC;
+  /* background-color: #f3eddf; */
+  /* background-color: #f7ecd3; */
+  /* background-colorgb(243, 234, 214)cd3; */
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Varta', sans-serif;
+}
+
+.navbar {
+  background-color: #F3F1EC;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar {
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .logo {
@@ -10,14 +35,140 @@
 }
 
 .nav-name {
-  font-size: 22px;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Fira Sans', sans-serif;
+  /* font-size: 24px; */
+  font-size: 20px;
 }
 
 .nav-subtitle {
   font-size: 15px;
 }
 
+.mid-top {
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* font-family: 'Bebas Neue', cursive; */
+  /* font-family: 'Abel', sans-serif; */
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+}
+
 .nav-link {
   color: #16120B !important;
   font-size: 14.5px; 
+}
+
+.showcase {
+  background-image: url("../img//pencil-1891732_1280--.jpg");
+
+  /* Full height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Styling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#slashes {
+  margin-top: 110px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 34px;
+  /* font-family: 'Bebas Neue', curs.ive; */
+}
+
+.mid-top-row {
+  margin-bottom: 12px;
+}
+
+#gs {
+  margin-top: 100px;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-title {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cb-mobile {
+  display: none;
+}
+
+
+#btn-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#options-btn {
+  background-color: transparent;
+  border: 3px solid black;
+  padding: 9px 20px 6px 20px;
+  transition: 0.3s;
+}
+
+#options-btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.font-2 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#carousel-title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.carousel-inner {
+  padding-bottom: 50px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+@media screen and (max-width: 575px) { 
+  .navbar {
+    position: relative;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  #showcase-container {
+    padding: 0;
+  }
+  .showcase {
+    height: 300px;
+  }
+  .cb-mobile {
+    display: initial;
+  }
+  .cb {
+    display: none;
+  }
+  .mid-top {
+    font-size: 30px;
+  }
 }
