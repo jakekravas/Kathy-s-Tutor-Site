@@ -46,6 +46,10 @@ body {
   font-size: 15px;
 }
 
+#mobile-location {
+  display: none;
+}
+
 .mid-top {
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   /* font-family: 'Bebas Neue', cursive; */
@@ -113,7 +117,7 @@ body {
 }
 
 .cb {
-  height: 160px;
+  /* height: 160px; */
 }
 
 .cb-mobile {
@@ -186,6 +190,8 @@ body {
 }
 
 #footer {
+  padding: 40px 0;
+  margin-top: 48px;
   background-color: #fff;
 }
 
@@ -195,6 +201,12 @@ body {
   }
   .nav-link {
     text-align: center;
+  }
+  #mobile-location {
+    display: initial;
+  }
+  #desktop-location {
+    display: none;
   }
   .quote {
     margin-bottom: 14px;
@@ -240,5 +252,8 @@ body {
   }
   .contact-content-mobile {
     display: initial;
+  }
+  #footer {
+    margin-top: 0 !important;
   }
 }
