@@ -208,6 +208,9 @@ body {
   #desktop-location {
     display: none;
   }
+  #mission-text {
+    font-size: 14px !important;
+  }
   .quote {
     margin-bottom: 14px;
   }
